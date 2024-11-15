@@ -1,14 +1,16 @@
 import './ItemCard.css';
 
-function ItemCard() {
+function ItemCard(props) {
+  const { price, itemName, category } = props;
+
   return (
     <div className="card">
       <div className="card-price">
-        <p>$419</p>
+        <p>${price}</p>
       </div>
       <div className="card-header">
-        <h2>Item</h2>
-        <h3>Category</h3>
+        <h2>{itemName}</h2>
+        <h3>{category}</h3>
       </div>
       <div className="card-options">
         <button>Edit</button>
