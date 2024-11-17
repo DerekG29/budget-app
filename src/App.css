@@ -1,3 +1,6 @@
 .app-wrapper {
-  max-width: 640px;
+  flex-basis: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

@@ -1,12 +1,14 @@
 import ItemCard from "../ItemCard";
 
+import './ItemList.css';
+
 function ItemList() {
   return (
-    <div>
+    <div className="list-wrapper">
       <ItemCard
         price={'600'}
         itemName={'Rent'}
-        category={'Home'}
+        category={'Housing'}
       />
       <ItemCard
         price={'345'}

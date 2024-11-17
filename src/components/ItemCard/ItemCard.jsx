@@ -6,7 +6,7 @@ function ItemCard(props) {
   return (
     <div className="card">
       <div className="card-price">
-        <p>${price}</p>
+        <h2>${price}</h2>
       </div>
       <div className="card-header">
         <h2>{itemName}</h2>
