@@ -1,7 +1,10 @@
+import './InfoPanel.css'
 
 function InfoPanel() {
   return (
-    <div>Info Panel</div>
+    <div className="info-card">
+      <h2>Info Card</h2>
+    </div>
   )
 }
 

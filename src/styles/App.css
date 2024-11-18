@@ -1,6 +1,8 @@
-.app-wrapper {
+#app {
   flex-basis: 640px;
   display: flex;
   flex-direction: column;
+  row-gap: 1rem;
   justify-content: flex-start;
+  margin: auto;
 }
