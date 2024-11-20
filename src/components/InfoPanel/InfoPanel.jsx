@@ -1,4 +1,4 @@
-import './InfoPanel.css'
+import "./InfoPanel.css";
 
 function InfoPanel() {
   return (
@@ -6,6 +6,6 @@ function InfoPanel() {
       <h2>Info Card</h2>
     </div>
   )
-}
+};
 
 export default InfoPanel;

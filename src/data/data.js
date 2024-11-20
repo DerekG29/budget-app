@@ -23,6 +23,6 @@ const data = [
     name: 'Spotify',
     category: 'Subscriptions'
   },
-]
+];
 
 export default data;

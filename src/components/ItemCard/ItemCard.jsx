@@ -1,4 +1,4 @@
-import './ItemCard.css';
+import "./ItemCard.css";
 
 function ItemCard(props) {
   const { price, itemName, category } = props;
@@ -19,6 +19,6 @@ function ItemCard(props) {
         </div>
     </div>
   )
-}
+};
 
 export default ItemCard;

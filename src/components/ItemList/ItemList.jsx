@@ -1,7 +1,7 @@
 import ItemCard from "../ItemCard";
-import data from '../../data/data.js'
+import data from "../../data/data.js";
 
-import './ItemList.css';
+import "./ItemList.css";
 
 function ItemList() {
   return (
@@ -18,6 +18,6 @@ function ItemList() {
       }
     </div>
   )
-}
+};
 
 export default ItemList;
