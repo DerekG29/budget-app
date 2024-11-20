@@ -1,20 +1,21 @@
 import ItemCard from "../ItemCard";
+import data from '../../data/data.js'
 
 import './ItemList.css';
 
 function ItemList() {
   return (
     <div className="list-wrapper">
-      <ItemCard
-        price={'600'}
-        itemName={'Rent'}
-        category={'Housing'}
-      />
-      <ItemCard
-        price={'345'}
-        itemName={'Car'}
-        category={'Auto'}
-      />
+      {
+        data.map(item => {
+          return <ItemCard
+            key={item.id}
+            price={item.price}
+            itemName={item.name}
+            category={item.category}
+          />
+        })
+      }
     </div>
   )
 }

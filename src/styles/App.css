@@ -4,5 +4,9 @@
   flex-direction: column;
   row-gap: 1rem;
   justify-content: flex-start;
-  margin: auto;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.list-wrapper {
+  flex-grow: 1;
 }
