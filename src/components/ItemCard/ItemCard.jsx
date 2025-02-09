@@ -11,7 +11,7 @@ function ItemCard(props) {
         <div className="card-header">
           <h2>{itemName}</h2>
           <p>-</p>
-          <h3>{category}</h3>
+          <p>{category}</p>
         </div>
         <div className="card-options">
           <button>Edit</button>
